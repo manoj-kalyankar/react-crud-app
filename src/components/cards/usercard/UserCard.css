@@ -1,0 +1,12 @@
+.user-card-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-card-container img {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  object-fit: cover;
+}
