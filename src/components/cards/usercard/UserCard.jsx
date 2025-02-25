@@ -1,11 +1,14 @@
-export default function UserCard() {
+import "./UserCard.css";
+
+export default function UserCard()
+{
   return (
     <div className="user-card-container">
       <div className="user-card-text">
         <h2>Admin Card</h2>
       </div>
       <img
-        src="https://wallpaperaccess.com/full/212885.png"
+        src="src/pictures/profile-pictures/Mantesh Kalyankar Photo.png"
         alt="Mantesh Kalyankar"
       />
     </div>

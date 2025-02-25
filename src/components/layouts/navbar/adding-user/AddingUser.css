@@ -1,7 +1,8 @@
-.navbar {
-  display: flex;
-  background: #d4d4d4;
-  align-items: center; /* Centers vertically */
+.parent-container{
+    display: flex;
+    
+    background-color: red;
+    align-items: center; /* Centers vertically */
   justify-content: space-between; /* Adjusts space horizontally */
   padding: 0 1rem;
   width: 100%;
@@ -11,11 +12,10 @@
   border-bottom: 2px solid black;
 }
 
-.left h2 {
-  font-size: 1.5rem;
+.left{
+
 }
 
-.right {
-  display: flex;
-  gap: 1rem;
+.right{
+
 }
